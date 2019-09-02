@@ -20,7 +20,7 @@ class _PredicateListState extends State<PredicateList> {
   // Storing all the text fields for each row.
   final _pairs = Map<int, PredicateItem>();
   // Stores the keys for each row to make sure there aren't any duplicates.
-  final _keys = Set<String>();
+  // final _keys = Set<String>();
 
   @override
   Widget build(BuildContext context) {
