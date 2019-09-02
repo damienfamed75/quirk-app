@@ -1,6 +1,10 @@
 # Quirk App
 
-Learning Flutter+Dart to make a small Android/iOS app. This is just for learning purposes.
+<p align="center">
+<a href="https://github.com/damienfamed75/quirk_app/actions"><img src="https://github.com/damienfamed75/quirk_app/workflows/CI/badge.svg" /></a>
+</p>
+
+<p align="center">Learning Flutter+Dart to make a small Android/iOS app. This is just for learning purposes.</p>
 
 ---
 
