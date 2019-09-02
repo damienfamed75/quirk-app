@@ -17,10 +17,10 @@ jobs:
       with:
         args: 'pub get'
         
-    - name: Run Tests
-      uses: steebchen/flutter@master
-      with:
-        args: 'test'
+#     - name: Run Tests
+#       uses: steebchen/flutter@master
+#       with:
+#         args: 'test'
         
     - name: Build
       uses: steebchen/flutter@master
