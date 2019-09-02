@@ -1,0 +1,24 @@
+name: CI
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Get Dependencies
+      uses: steebchen/flutter@master
+      with:
+        args: 'pub get'
+        
+    - name: Run Tests
+      uses: steebchen/flutter@master
+      with:
+        args: 'test'
+        
+    - name: Build
+      uses: steebchen/flutter@master
+      with:
+        args: 'build apk --release'
